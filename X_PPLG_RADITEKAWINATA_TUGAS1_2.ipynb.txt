@@ -16,7 +16,7 @@
   "cells": [
     {
       "cell_type": "markdown",
-      "source": [
+      "source": [https://colab.research.google.com/drive/1IqOpJWoaM77MJPVyFH_UFwneD8sMjO5p]
         "tugas 1 praktik 2 membuat data dan variabel nama kelompok : dosq mystery anggota:Radit Eka Winata Raditya Muhhamad Qaessar Jauza Attalah Hariyanto Habib Restu Pamungkas Muhhamad Wildan Al-Fajri RACHSYA ALFITO DINOVA"
       ],
       "metadata": {
