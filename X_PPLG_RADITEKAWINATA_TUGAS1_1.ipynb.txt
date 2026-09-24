@@ -16,7 +16,7 @@
   "cells": [
     {
       "cell_type": "markdown",
-      "source": [
+      "source": [https://colab.research.google.com/drive/1yOT5LNKAPbtqXg7-r2O3XQ-YDuo7Lj73]
         "tugas 1 praktik 1 membuat data dan variabel\n",
         "nama kelompok : dosq mystery\n",
         "anggota:Radit Eka Winata\n",
