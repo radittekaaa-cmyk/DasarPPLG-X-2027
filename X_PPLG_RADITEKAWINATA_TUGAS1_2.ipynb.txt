@@ -1,0 +1,105 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": []
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "source": [
+        "tugas 1 praktik 2 membuat data dan variabel nama kelompok : dosq mystery anggota:Radit Eka Winata Raditya Muhhamad Qaessar Jauza Attalah Hariyanto Habib Restu Pamungkas Muhhamad Wildan Al-Fajri RACHSYA ALFITO DINOVA"
+      ],
+      "metadata": {
+        "id": "BncmHmPHGRde"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "%%writefile input_data.cpp\n",
+        "#include <iostream>\n",
+        "#include <string>\n",
+        "using namespace std;\n",
+        "\n",
+        "int main(){\n",
+        "   string namaSiswa;\n",
+        "   int umur;\n",
+        "\n",
+        "   cout <<\"Masukkan Nama(1 kata):\";\n",
+        "cin>>namaSiswa;\n",
+        "\n",
+        "cout<<\"Masukkan Umur Anda :\";\n",
+        "cin>>umur;\n",
+        "\n",
+        "cout<<\"\\nhalo \" << namaSiswa<<\",ternyata umur kamu \"<< umur <<\" tahun ya!\"<<endl;\n",
+        "return 0;\n",
+        "}"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "T9OQQlSOGV1E",
+        "outputId": "c2703ae0-403b-45e9-ed48-665ff055df5c"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Overwriting input_data.cpp\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "!g++ input_data.cpp -o input_data"
+      ],
+      "metadata": {
+        "collapsed": true,
+        "id": "_IPu5oRHH_69"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "!./input_data"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "rqVCgdX_I2QN",
+        "outputId": "069e420e-d81b-4a8e-8403-057d7e4f5a91"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Masukkan Nama(1 kata):RaditEkaWinata\n",
+            "Masukkan Umur Anda :16\n",
+            "\n",
+            "halo RaditEkaWinata,ternyata umur kamu 16 tahun ya!\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
